@@ -1,0 +1,281 @@
+{
+    "Thing": {
+        "$count": 780219932,
+        "BioChemEntity": {
+            "$count": 20642,
+            "ChemicalSubstance": {
+                "$count": 0
+            },
+            "Gene": {
+                "$count": 0
+            },
+            "MolecularEntity": {
+                "$count": 2035
+            },
+            "Protein": {
+                "$count": 0
+            }
+        },
+        "MedicalEntity": {
+            "$count": 1465491,
+            "AnatomicalStructure": {
+                "$count": 6237,
+                "Bone": {
+                    "$count": 0
+                },
+                "BrainStructure": {
+                    "$count": 9
+                },
+                "Joint": {
+                    "$count": 3
+                },
+                "Ligament": {
+                    "$count": 0
+                },
+                "Muscle": {
+                    "$count": 0
+                },
+                "Nerve": {
+                    "$count": 0
+                },
+                "Vessel": {
+                    "$count": 0,
+                    "Artery": {
+                        "$count": 0
+                    },
+                    "LymphaticVessel": {
+                        "$count": 0
+                    },
+                    "Vein": {
+                        "$count": 0
+                    }
+                }
+            },
+            "AnatomicalSystem": {
+                "$count": 398
+            },
+            "DrugClass": {
+                "$count": 41653
+            },
+            "DrugCost": {
+                "$count": 9642
+            },
+            "LifestyleModification": {
+                "$count": 4435,
+                "Diet": {
+                    "$count": 334
+                },
+                "PhysicalActivity": {
+                    "$count": 1265,
+                    "ExercisePlan": {
+                        "$count": 928
+                    }
+                }
+            },
+            "MedicalCause": {
+                "$count": 3203
+            },
+            "MedicalCondition": {
+                "$count": 197046,
+                "InfectiousDisease": {
+                    "$count": 41
+                },
+                "MedicalSignOrSymptom": {
+                    "$count": 15034,
+                    "MedicalSign": {
+                        "$count": 59,
+                        "VitalSign": {
+                            "$count": 0
+                        }
+                    },
+                    "MedicalSymptom": {
+                        "$count": 8776
+                    }
+                }
+            },
+            "MedicalContraindication": {
+                "$count": 709
+            },
+            "MedicalDevice": {
+                "$count": 2204
+            },
+            "MedicalGuideline": {
+                "$count": 183,
+                "MedicalGuidelineContraindication": {
+                    "$count": 1
+                },
+                "MedicalGuidelineRecommendation": {
+                    "$count": 32
+                }
+            },
+            "MedicalIndication": {
+                "$count": 5724,
+                "ApprovedIndication": {
+                    "$count": 53
+                },
+                "PreventionIndication": {
+                    "$count": 0
+                },
+                "TreatmentIndication": {
+                    "$count": 4772
+                }
+            },
+            "MedicalIntangible": {
+                "$count": 240499,
+                "DDxElement": {
+                    "$count": 535
+                },
+                "DoseSchedule": {
+                    "$count": 3845,
+                    "MaximumDoseSchedule": {
+                        "$count": 3
+                    },
+                    "RecommendedDoseSchedule": {
+                        "$count": 26
+                    },
+                    "ReportedDoseSchedule": {
+                        "$count": 2
+                    }
+                },
+                "DrugLegalStatus": {
+                    "$count": 9782
+                },
+                "DrugStrength": {
+                    "$count": 66313
+                },
+                "MedicalCode": {
+                    "$count": 157274
+                },
+                "MedicalConditionStage": {
+                    "$count": 328
+                }
+            },
+            "MedicalProcedure": {
+                "$count": 375682,
+                "DiagnosticProcedure": {
+                    "$count": 1120
+                },
+                "PhysicalExam": {
+                    "$count": 716
+                },
+                "SurgicalProcedure": {
+                    "$count": 3739
+                },
+                "TherapeuticProcedure": {
+                    "$count": 47832,
+                    "MedicalTherapy": {
+                        "$count": 27709,
+                        "PalliativeProcedure": {
+                            "$count": 9
+                        },
+                        "OccupationalTherapy": {
+                            "$count": 560
+                        },
+                        "PhysicalTherapy": {
+                            "$count": 10318
+                        },
+                        "RadiationTherapy": {
+                            "$count": 13
+                        },
+                        "RespiratoryTherapy": {
+                            "$count": 3
+                        }
+                    },
+                    "PsychologicalTreatment": {
+                        "$count": 2066
+                    }
+                }
+            },
+            "MedicalRiskEstimator": {
+                "$count": 3,
+                "MedicalRiskCalculator": {
+                    "$count": 3
+                },
+                "MedicalRiskScore": {
+                    "$count": 0
+                }
+            },
+            "MedicalRiskFactor": {
+                "$count": 8418
+            },
+            "MedicalStudy": {
+                "$count": 6463,
+                "MedicalObservationalStudy": {
+                    "$count": 17
+                },
+                "MedicalTrial": {
+                    "$count": 3647
+                }
+            },
+            "MedicalTest": {
+                "$count": 62537,
+                "BloodTest": {
+                    "$count": 21
+                },
+                "ImagingTest": {
+                    "$count": 220
+                },
+                "MedicalTestPanel": {
+                    "$count": 23
+                },
+                "PathologyTest": {
+                    "$count": 9
+                }
+            },
+            "Substance": {
+                "$count": 397486,
+                "Drug": {
+                    "$count": 396541
+                }
+            },
+            "SuperficialAnatomy": {
+                "$count": 22
+            }
+        },
+        "Person": {
+            "$count": 456323361,
+            "Patient": {
+                "$count": 32626
+            }
+        },
+        "Product": {
+            "$count": 240920482,
+            "DietarySupplement": {
+                "$count": 1754
+            },
+            "Drug": {
+                "$count": 396541
+            },
+            "IndividualProduct": {
+                "$count": 1125331
+            },
+            "ProductCollection": {
+                "$count": 10335
+            },
+            "ProductGroup": {
+                "$count": 44717
+            },
+            "ProductModel": {
+                "$count": 2409473
+            },
+            "SomeProducts": {
+                "$count": 96150
+            },
+            "Vehicle": {
+                "$count": 5059820,
+                "BusOrCoach": {
+                    "$count": 217996
+                },
+                "Car": {
+                    "$count": 2384147
+                },
+                "Motorcycle": {
+                    "$count": 58480
+                },
+                "MotorizedBicycle": {
+                    "$count": 13
+                }
+            }
+        }
+    }
+}
